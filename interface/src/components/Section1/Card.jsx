@@ -7,6 +7,7 @@ const Card = () => {
       <div className="relative top-90 text-white flex justify-center items-center left-8 pr-10">Prime customers, that <br></br>have access to bank <br></br>credit and are satisfied <br></br>with the current product.
 
 </div>
+<div className="bg-violet-600 h-10 w-[45%] relative left-13 top-120 rounded-[40px]"></div>
     </div>
   )
 }
