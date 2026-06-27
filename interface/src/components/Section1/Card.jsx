@@ -1,5 +1,6 @@
 
 
+import arrow from "../../assets/arrow-sm-right-svgrepo-com.svg"
 const Card = () => {
   return (
     <div className=" bg-center bg-[url('https://images.unsplash.com/photo-1543428390-52250776dd46?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8d29tZW4lMjBob2xkaW5nJTIwYW5kJTIwc2VlaW5nJTIwYSUyMHBob25lfGVufDB8fDB8fHww')]  border-2 border-amber-100 rounded-[25px] w-[95%]">
@@ -9,7 +10,8 @@ const Card = () => {
 </div>
 <div className="flex">
   <div className="bg-blue-600 h-10 w-[43%] relative left-13 top-120 rounded-[40px] flex text-[15px] text-white pt-2 pl-5">Satisfied</div>
-<div className="bg-blue-600 h-6 w-[15%] relative left-8 top-122 rounded-[40px]"></div>
+<div className="bg-blue-600 h-5 w-[17%] relative left-8 top-122 rounded-[40px]"></div>
+<div className="bg-blue-600 h-12 w-12 relative left-5 top-118 rounded-[50%] flex justify-center items-center "><img src={arrow} alt="arrow" className="w-8 h-8"/></div>
 </div>
 
     </div>
