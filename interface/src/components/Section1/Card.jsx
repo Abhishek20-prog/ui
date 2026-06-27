@@ -11,7 +11,7 @@ const Card = () => {
 <div className="flex">
   <div className="bg-blue-600 h-10 w-[43%] relative left-13 top-120 rounded-[40px] flex text-[15px] text-white pt-2 pl-5">Satisfied</div>
 <div className="bg-blue-600 h-5 w-[17%] relative left-8 top-122 rounded-[40px]"></div>
-<div className="bg-blue-600 h-12 w-12 relative left-5 top-118 rounded-[50%] flex justify-center items-center "><img src={arrow} alt="arrow" className="w-8 h-8"/></div>
+<button className="bg-blue-600 h-12 w-12 relative left-5 top-118 rounded-[50%] flex justify-center items-center hover:bg-blue-500 hover:pointer hover:scale-105 hover:shadow-lg"><img src={arrow} alt="arrow" className="w-8 h-8"/></button>
 </div>
 
     </div>
